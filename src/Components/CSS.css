@@ -1,0 +1,139 @@
+.bgPhoto{
+    background-color: #76cff0;
+    /* height: auto; */
+    background-size:cover ;
+    width: 100%;
+}
+
+
+.headingRight {
+    text-align: right;
+}
+
+.cvContent{
+    padding-top:  30%;
+    text-align: left;
+    text-shadow: 2px 2px rgb(9, 9, 9);
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+    width: 100%;
+    height:710px;
+    padding-left: 1%;
+}
+
+
+.myContainer {
+    background: url("MyPhoto.jpg");
+    
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten ;
+}
+
+.progress{
+    height: 2px;
+}
+
+.careerBG{
+    background-color: #FFF8E3;
+    /* background-color: black; */
+    /* margin-top: 0; */
+    /* border-top: 0; */
+
+
+}
+
+.containerBG{
+    background-color: #F5EEE6;
+    /* margin-top: 5px; */
+
+}
+
+.faded {
+    box-shadow: 4px 0 5px #F3D7CA,  -4px 0 5px #F3D7CA;
+}
+
+.paragraph{
+    text-align: center;
+    margin: 0;
+}
+
+.box-wrapper{
+    display: flex;
+    max-height: 260px;
+    max-width: 200px;
+    overflow-x: auto;
+    align-items: center;
+}
+
+.box-item{
+    height: 16rem;
+    width: 40rem;
+    margin-right:5px ;
+}
+
+.nav-style{
+    position: fixed;
+    background-color: rgb(250, 239, 239);
+    width: 100%;
+}
+
+.nav-items{
+    color: #F5EEE6;
+}
+
+ .nav-item {
+    background-color: #131313;
+    color: #F5EEE6;
+
+ }
+ .nav-items :hover {
+    background-color: #232424;
+    /* color: #52dac3; */
+    color: #dfe23a;
+
+ }
+ .nav-item-main :hover{
+    color: #4ee7f5;
+
+ }
+
+ .flex-container{
+    display: flex;
+}
+
+#right-container{
+     /* flex-direction: row-reverse; */
+margin-left: auto;
+text-align: right;
+ }
+
+ .name-color{
+    color: #4e78f5;
+ }
+
+ #contactMe{
+    background-color: #F5EEE6;
+ }
+
+ @keyframes text-delay{
+    0%{
+        opacity: 0;
+        transform: translateY(80px) scale(0.7);
+
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+ }
+
+ .text-animation{
+    animation-name: text-delay ;
+    animation-duration: 2s;
+ }
+ 
+ .text-animation2  {
+    animation-name: text-delay ;
+    animation-duration: 3s;
+ }
