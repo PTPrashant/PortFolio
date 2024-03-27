@@ -1,14 +1,17 @@
-
+import './CSS.css';
 function Career() {
   return (
     <div className="careerBG" id="career">
     <div  className="containerBG faded container">
     <br></br>
+    <br></br>
+    <br></br><br/>
+    
       <h1 style={{textAlign:'center'}}>Career So far</h1>
       <br/>
       
       <div>
-      <div className="container" >
+      <div className="container fade-scroll" >
         <p className="paragraph">
           I have worked as a support and Feature Developer in front-end UI with
           2 years of experience in UI design implementation & optimisation .
@@ -21,11 +24,11 @@ function Career() {
       </div>
 
       <br></br><br/><br/>
-      <div>
+      <div className=''>
 
         <h4 style={{textAlign:'center'}}>As a FrontEnd Developer:</h4><br/>
         
-        <div className="container" style={{width:'75%'}}>
+        <div className="fade-scroll container serif" style={{width:'75%'}}>
         <li>
           Implemented Routing thereby increasing performance and reducing server
           load by preventing reloads.
@@ -50,7 +53,7 @@ function Career() {
       <div>
         <h4 style={{textAlign:'center'}}>As a Backend Developer and Support:</h4>
         <br/>
-        <div className="container" style={{width:'75%'}}>
+        <div className="container serif fade-scroll" style={{width:'75%'}}>
         <li>
         Experience in handling L1 and L2 level issues, and customer
         requirements while being appointed Team Lead.{" "}
@@ -73,7 +76,7 @@ function Career() {
         <br/>
         <br></br><br/>
 
-      <div className="container " style={{ width: "30%" }}>
+      <div className="container fade-scroll" style={{ width: "30%" }}>
         <h2 style={{textAlign:'center'}}>Technical Skills</h2>
         <br/>
 
@@ -160,7 +163,7 @@ function Career() {
 
       <br></br><br/>
 
-      <div className="container " >
+      <div className="fade-scroll container " >
       <h2 style={{textAlign:'center'}}>Achievements</h2>
       <br/>
 

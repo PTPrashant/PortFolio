@@ -22,8 +22,8 @@ function App() {
       <NavCustom />
       <CVCustom />
       <Career />
-      <AboutMe />
       <PersonalProjects />
+      <AboutMe />
       <ContactMe />
     </BrowserRouter>
   );

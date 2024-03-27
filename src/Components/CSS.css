@@ -36,6 +36,7 @@
 
 .careerBG{
     background-color: #FFF8E3;
+
     /* background-color: black; */
     /* margin-top: 0; */
     /* border-top: 0; */
@@ -56,6 +57,11 @@
 .paragraph{
     text-align: center;
     margin: 0;
+
+}
+.serif{
+    font-family: sans-serif;
+
 }
 
 .box-wrapper{
@@ -116,10 +122,52 @@ text-align: right;
     background-color: #F5EEE6;
  }
 
+ #projects{
+     background-color: #FFF8E3;
+    /* font-family: sans-serif; */
+
+    }
+.projectContainer{
+    background-color: #F5EEE6;
+    box-shadow: 4px 0 5px #F3D7CA,  -4px 0 5px #F3D7CA;
+}
+.card{
+    background-color: #eff1f2;
+    transition: all 0.3s ;
+    /* cursor: zoom-in; */
+
+}
+.card :hover{
+    /* background-color: #c7dcf5; */
+    background-color: #e1e7dc;
+
+
+}
+
+#aboutMe{
+    background-color: #FFF8E3;
+    /* font-family: sans-serif; */
+
+
+}
+.aboutMeContainer{
+       background-color: #F5EEE6;
+    box-shadow: 4px 0 5px #F3D7CA,  -4px 0 5px #F3D7CA;
+
+}
+
+
+#contactMe{
+    background-color: #FFF8E3;
+    /* font-family: sans-serif; */
+
+
+}
+
  @keyframes text-delay{
     0%{
         opacity: 0;
-        transform: translateY(80px) scale(0.7);
+        transform: translateY(-80px)
 
     }
     100%{
@@ -136,4 +184,41 @@ text-align: right;
  .text-animation2  {
     animation-name: text-delay ;
     animation-duration: 3s;
+ }
+
+ .interest :hover {
+    color: rgb(50, 93, 156)
+ }
+
+ .fade-scroll{
+    animation: fadeScroll linear both;
+    animation-timeline: view();
+    /* animation: fadeScroll ease-in-out ; */
+    /* animation-duration: 3s; */
+    /* animation-range: entry 50% cover 50%; */
+
+ }
+
+ @keyframes fadeScroll {
+    /* from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+
+    } */
+    0% {
+        opacity: 0;
+        /* transform: translateY(90px) */
+        
+    }
+    40%{
+        opacity: 1;
+        
+    }
+    100%{
+        /* transform: translateY(0) scale(1); */
+
+    }
  }

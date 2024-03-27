@@ -37,16 +37,7 @@ function NavCustom() {
             >
               Career
             </Link>
-            <Link
-              to="aboutMe"
-              smooth={true}
-              spy={true}
-              duration={700}
-              className="nav-item nav-link nav-items active"
-              href="#"
-            >
-              About Me
-            </Link>
+
             <Link
               to="projects"
               smooth={true}
@@ -57,6 +48,20 @@ function NavCustom() {
             >
               Personal Projects
             </Link>
+
+            <Link
+              to="aboutMe"
+              smooth={true}
+              spy={true}
+              duration={700}
+              className="nav-item nav-link nav-items active"
+              href="#"
+            >
+              About Me
+            </Link>
+
+            
+
             <Link
               to="contactMe"
               smooth={true}

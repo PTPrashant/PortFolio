@@ -3,11 +3,15 @@ import phone from "./telephone.png";
 import location from "./location.png";
 import mail from "./mail.png";
 
+
+//className in container projectContainer
+
 function ContactMe() {
   return (
     <div id="contactMe">
-    <br/>
-      <div className="container">
+
+      <div className="container projectContainer">
+      <br/>
         <div className="flex-container">
           <div>
             <h2 className="name-color">Prashant Tiwari</h2>
