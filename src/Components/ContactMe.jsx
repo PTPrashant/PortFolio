@@ -10,7 +10,7 @@ function ContactMe() {
   return (
     <div id="contactMe">
 
-      <div className="container projectContainer">
+      <div className="container ">
       <br/>
         <div className="flex-container">
           <div>
